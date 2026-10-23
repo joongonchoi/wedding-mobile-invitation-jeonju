@@ -65,9 +65,46 @@ export const Bus = () => {
               📌 원활한 이동을 위해 출발 10분 전까지 탑승해 주시기 바랍니다.
             </span>
             <br />
+            
+            {/* 💡 탑승 신청 문자 보내기 버튼 💡 */}
+            <a
+              href="sms:01023329226?body=[대절버스 탑승 신청]%0A- 이름 : %0A- 인원 : 명%0A%0A빈칸을 채워서 전송해 주세요 ☺️"
+              style={{
+                display: "block",
+                marginTop: "12px",
+                padding: "10px 16px",
+                backgroundColor: "#f5f5f5",
+                border: "1px solid #e0e0e0",
+                color: "#333",
+                textDecoration: "none",
+                borderRadius: "8px",
+                fontSize: "0.85rem",
+                fontWeight: "bold",
+                textAlign: "center",
+                boxSizing: "border-box"
+              }}
+            >
+              ✉️ 탑승 신청 문자 보내기
+            </a>
           </div>
         </div>
       </LazyDiv>
     </>
   )
 }
+
+
+
+          // <div className="content">
+          //   <b>버스 탑승 문의</b> |
+          //   <br />
+          //   {/* 💡 아래 인솔자 정보를 수정하세요 💡 */}
+          //   김은진 (신부 / 010-2332-9226)
+          //   <br />
+          //   <span style={{ letterSpacing: "-1px", fontSize: "0.7rem" }}>
+          //     📌 탑승하실 분은 신부에게 미리 연락 부탁드립니다.
+          //     <br />
+          //     📌 원활한 이동을 위해 출발 10분 전까지 탑승해 주시기 바랍니다.
+          //   </span>
+          //   <br />
+          // </div>
