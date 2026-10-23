@@ -33,19 +33,23 @@ export const Bus = () => {
           <div className="heading"> 💡대절버스💡 <strong>(전주 ↔ 평택)</strong> </div>
           <div />
           <div className="content">
-            <b>전주 → 평택</b> |
+            <b>전주 → 평택 |</b>
             <br />
-            <strong>출발 시간</strong>: 2027년 1월 23일(토) 오후 1시 30분
+            <span style={{ fontSize: "0.8rem" }}>
+              <strong>출발 시간</strong>: 2027년 1월 23일(토) 오후 1시 30분
+              <br />
+              <strong>탑승 장소</strong>: 전주월드컵경기장 P10 주차장
+              <br />
+            </span>
             <br />
-            <strong>탑승 장소</strong>: 전주월드컵경기장 P10 주차장
+            <b>평택 → 전주 |</b>
             <br />
-            <br />
-            <b>평택 → 전주</b> |
-            <br />
-            <strong>출발 시간</strong>: 2027년 1월 23일(토) 오후 5시 30분 (미정)
-            <br />
-            <strong>탑승 장소</strong>: M프라자 앞 사거리 (미정)
-            <br />
+            <span style={{ fontSize: "0.8rem" }}>
+              <strong>출발 시간</strong>: 2027년 1월 23일(토) 오후 5시 30분 (미정)
+              <br />
+              <strong>탑승 장소</strong>: M프라자 앞 사거리 (미정)
+              <br />
+            </span>
           </div>
           <div />
           <div className="content">
