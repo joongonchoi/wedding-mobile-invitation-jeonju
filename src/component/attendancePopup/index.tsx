@@ -22,8 +22,8 @@ export const AttendancePopup = () => {
         left: 0,
         width: "100%",
         height: "100%",
-        backgroundColor: "rgba(0, 0, 0, 0.6)", // 반투명 검은색 배경
-        zIndex: 9999, // 화면 맨 앞으로 가져오기
+        backgroundColor: "rgba(0, 0, 0, 0.6)",
+        zIndex: 9999,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -48,9 +48,11 @@ export const AttendancePopup = () => {
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-          {/* 신랑에게 알리기 버튼 */}
+          {/* 💡 구글 설문지 링크를 아래 href에 넣어주세요 💡 */}
           <a
-            href="sms:01091008360?body=[참석 여부 전달]%0A- 이름 : %0A- 참석 인원 : 명%0A- 식사 여부 (O/X) : %0A%0A전달해주셔서 감사합니다 ☺️"
+            href="https://forms.gle/K7vuNCNgSrAvop3H8"
+            target="_blank"
+            rel="noreferrer"
             style={{
               width: "100%",
               padding: "12px 0",
@@ -63,25 +65,7 @@ export const AttendancePopup = () => {
               fontWeight: "bold"
             }}
           >
-            🤵 신랑 측 참석 알림 메시지 보내기
-          </a>
-
-          {/* 신부에게 알리기 버튼 */}
-          <a
-            href="sms:01023329226?body=[참석 여부 전달]%0A- 이름 : %0A- 참석 인원 : 명%0A- 식사 여부 (O/X) : %0A%0A전달해주셔서 감사합니다 ☺️"
-            style={{
-              width: "100%",
-              padding: "12px 0",
-              backgroundColor: "#f5f5f5",
-              border: "1px solid #e0e0e0",
-              color: "#333",
-              textDecoration: "none",
-              borderRadius: "8px",
-              fontSize: "0.9rem",
-              fontWeight: "bold"
-            }}
-          >
-            👰 신부 측 참석 알림 메시지 보내기
+            📋 참석 의사 전달하기
           </a>
         </div>
 
