@@ -30,7 +30,7 @@ export const Bus = () => {
           <div className="transportation-icon-wrapper">
             <BusIcon className="transportation-icon" />
           </div>
-          <div className="heading"> 💡대절버스💡 <strong>(전주 ↔ 평택)</strong> </div>
+          <div className="heading"> 💡대절버스 (전주 ↔ 평택)💡 </div>
           <div />
           <div className="content">
             <b>전주 → 평택 |</b>
