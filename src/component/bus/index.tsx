@@ -55,7 +55,6 @@ export const Bus = () => {
             김은진 (신부 / 010-2332-9226)
             <br />
             <span style={{ letterSpacing: "-1px", fontSize: "0.7rem" }}>
-              <br />
               📌 탑승하실 분은 신부에게 미리 연락 부탁드립니다.
               <br />
               📌 원활한 이동을 위해 출발 10분 전까지 탑승해 주시기 바랍니다.
