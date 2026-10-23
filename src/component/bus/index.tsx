@@ -49,6 +49,7 @@ export const Bus = () => {
               <br />
               <strong>탑승 장소</strong>: M프라자 앞 사거리 (미정)
               <br />
+              <br />
             </span>
           </div>
           <div />
