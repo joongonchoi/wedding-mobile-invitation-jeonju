@@ -33,7 +33,7 @@ export const Bus = () => {
           <div className="heading"> 💡대절버스 (전주 ↔ 평택)💡 </div>
           <div />
           <div className="content">
-            <b>전주 → 평택 |</b>
+            <b>전주 → 평택</b> |
             <br />
             <span style={{ fontSize: "0.8rem" }}>
               <strong>출발 시간</strong>: 2027년 1월 23일(토) 오후 1시 30분
@@ -42,7 +42,7 @@ export const Bus = () => {
               <br />
             </span>
             <br />
-            <b>평택 → 전주 |</b>
+            <b>평택 → 전주</b> |
             <br />
             <span style={{ fontSize: "0.8rem" }}>
               <strong>출발 시간</strong>: 2027년 1월 23일(토) 오후 5시 30분 (미정)
@@ -53,7 +53,7 @@ export const Bus = () => {
           </div>
           <div />
           <div className="content">
-            <b>버스 탑승 문의</b>
+            <b>버스 탑승 문의</b> |
             <br />
             {/* 💡 아래 인솔자 정보를 수정하세요 💡 */}
             김은진 (신부 / 010-2332-9226)
