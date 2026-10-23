@@ -46,7 +46,7 @@ export const Bus = () => {
           </div>
           <div />
           <div className="content">
-            <b>버스 인솔자</b>
+            <b>버스 안내</b>
             <br />
             {/* 💡 아래 인솔자 정보를 수정하세요 💡 */}
             김은진 (신부 / 010-2332-9226)
