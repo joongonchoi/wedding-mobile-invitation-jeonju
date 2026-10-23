@@ -46,12 +46,12 @@ export const Bus = () => {
           </div>
           <div />
           <div className="content">
-            <b>버스 안내</b>
+            <b>버스 탑승 문의</b>
             <br />
             {/* 💡 아래 인솔자 정보를 수정하세요 💡 */}
             김은진 (신부 / 010-2332-9226)
             <br />
-            <span style={{ letterSpacing: "-1px", fontSize: "0.85rem" }}>
+            <span style={{ letterSpacing: "-1px", fontSize: "0.7rem" }}>
               📌 탑승하실 분은 신부에게 미리 연락 부탁드립니다.
               <br />
               📌 원활한 이동을 위해 출발 10분 전까지 탑승해 주시기 바랍니다.
