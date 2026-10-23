@@ -82,7 +82,7 @@ export const Location = () => {
           </div>
           <div />
           <div className="content">
-            <b>💡주차 안내💡</b>
+            <b>💡테스트 주차 안내💡</b>
             <br />
             <span style={{ letterSpacing: "-1px" }}>
               <strong>M프라자 빌딩 지하 1, 2, 3층</strong> 또는 <strong>자란공영주차장</strong>
