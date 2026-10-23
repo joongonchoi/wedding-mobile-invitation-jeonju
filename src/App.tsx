@@ -1,5 +1,6 @@
 import { Cover } from "./component/cover"
 import { Location } from "./component/location"
+import { Bus } from "./component/bus" //
 import "./App.scss"
 import { BGEffect } from "./component/bgEffect"
 import { Invitation } from "./component/invitation"
@@ -42,6 +43,11 @@ function App() {
         <LazyDiv className="card-group">
           {/* 오시는 길 및 지도 섹션 */}
           <Location />
+        </LazyDiv>
+
+        <LazyDiv className="card-group">
+          {/* 대절버스 안내 및 지도 섹션 (새로 추가됨) */}
+          <Bus />
         </LazyDiv>
 
         <LazyDiv className="card-group">
