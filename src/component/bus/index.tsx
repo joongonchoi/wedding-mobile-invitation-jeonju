@@ -30,7 +30,7 @@ export const Bus = () => {
           <div className="transportation-icon-wrapper">
             <BusIcon className="transportation-icon" />
           </div>
-          <div className="heading">탑승 시간 및 장소</div>
+          <div className="heading"> 💡대절버스💡 <strong>(전주 ↔ 평택)</strong> </div>
           <div />
           <div className="content">
             <b>출발 시간</b>
@@ -49,10 +49,11 @@ export const Bus = () => {
             <b>버스 인솔자</b>
             <br />
             {/* 💡 아래 인솔자 정보를 수정하세요 💡 */}
-            김철수 (010-1234-5678)
+            김은진 (신부 / 010-2332-9226)
             <br />
+            💡탑승하실 분은 신부에게 미리 연락 부탁드립니다.
             <br />
-            * 원활한 이동을 위해 출발 10분 전까지 탑승해 주시기 바랍니다.
+            💡 원활한 이동을 위해 출발 10분 전까지 탑승해 주시기 바랍니다.
           </div>
         </div>
       </LazyDiv>
