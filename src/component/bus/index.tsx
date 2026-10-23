@@ -16,7 +16,10 @@ export const Bus = () => {
         <div className="addr">
           대절버스 탑승 안내
           {/* 💡 아래 탑승 장소 상세 주소를 수정하세요 💡 */}
-          <div className="detail">전북 전주시 덕진구 기린대로 1055</div>
+          <div className="detail">전북 전주시 덕진구 기린대로 1055
+          <br />
+          (전주월드컵경기장 P10 주차장)
+          </div>
         </div>
         <Map />
       </LazyDiv>
@@ -33,7 +36,7 @@ export const Bus = () => {
             <b>출발 시간</b>
             <br />
             {/* 💡 아래 출발 시간을 수정하세요 💡 */}
-            2027년 1월 23일 (토) 오후 1시 30분
+            2027년 1월 23일(토) 오후 1시 30분
             <br />
             <br />
             <b>탑승 장소</b>
